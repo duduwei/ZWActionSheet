@@ -13,8 +13,6 @@
 		B60A14191DDB074800DAC107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60A14171DDB074800DAC107 /* Main.storyboard */; };
 		B60A141B1DDB074800DAC107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60A141A1DDB074800DAC107 /* Assets.xcassets */; };
 		B60A141E1DDB074800DAC107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60A141C1DDB074800DAC107 /* LaunchScreen.storyboard */; };
-		B60A14291DDB074900DAC107 /* ZWActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A14281DDB074900DAC107 /* ZWActionSheetTests.m */; };
-		B60A14341DDB074900DAC107 /* ZWActionSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A14331DDB074900DAC107 /* ZWActionSheetUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +44,7 @@
 		B60A141D1DDB074800DAC107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60A141F1DDB074800DAC107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B60A14241DDB074900DAC107 /* ZWActionSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWActionSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B60A14281DDB074900DAC107 /* ZWActionSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWActionSheetTests.m; sourceTree = "<group>"; };
-		B60A142A1DDB074900DAC107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B60A142F1DDB074900DAC107 /* ZWActionSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWActionSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B60A14331DDB074900DAC107 /* ZWActionSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWActionSheetUITests.m; sourceTree = "<group>"; };
-		B60A14351DDB074900DAC107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				B60A140D1DDB074800DAC107 /* ZWActionSheet Test */,
-				B60A14271DDB074900DAC107 /* ZWActionSheetTests */,
-				B60A14321DDB074900DAC107 /* ZWActionSheetUITests */,
 				B60A140C1DDB074800DAC107 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,24 +113,6 @@
 				B60A140F1DDB074800DAC107 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B60A14271DDB074900DAC107 /* ZWActionSheetTests */ = {
-			isa = PBXGroup;
-			children = (
-				B60A14281DDB074900DAC107 /* ZWActionSheetTests.m */,
-				B60A142A1DDB074900DAC107 /* Info.plist */,
-			);
-			path = ZWActionSheetTests;
-			sourceTree = "<group>";
-		};
-		B60A14321DDB074900DAC107 /* ZWActionSheetUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B60A14331DDB074900DAC107 /* ZWActionSheetUITests.m */,
-				B60A14351DDB074900DAC107 /* Info.plist */,
-			);
-			path = ZWActionSheetUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B60A14291DDB074900DAC107 /* ZWActionSheetTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B60A14341DDB074900DAC107 /* ZWActionSheetUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +480,7 @@
 				B60A143A1DDB074900DAC107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B60A143B1DDB074900DAC107 /* Build configuration list for PBXNativeTarget "ZWActionSheetTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +489,7 @@
 				B60A143D1DDB074900DAC107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B60A143E1DDB074900DAC107 /* Build configuration list for PBXNativeTarget "ZWActionSheetUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +498,7 @@
 				B60A14401DDB074900DAC107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
