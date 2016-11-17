@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60A14101DDB074800DAC107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A140F1DDB074800DAC107 /* main.m */; };
+		B60A14131DDB074800DAC107 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A14121DDB074800DAC107 /* AppDelegate.m */; };
+		B60A14161DDB074800DAC107 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A14151DDB074800DAC107 /* ViewController.m */; };
+		B60A14191DDB074800DAC107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60A14171DDB074800DAC107 /* Main.storyboard */; };
+		B60A141B1DDB074800DAC107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60A141A1DDB074800DAC107 /* Assets.xcassets */; };
+		B60A141E1DDB074800DAC107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60A141C1DDB074800DAC107 /* LaunchScreen.storyboard */; };
+		B60A14291DDB074900DAC107 /* ZWActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A14281DDB074900DAC107 /* ZWActionSheetTests.m */; };
+		B60A14341DDB074900DAC107 /* ZWActionSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60A14331DDB074900DAC107 /* ZWActionSheetUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B60A14251DDB074900DAC107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60A14031DDB074800DAC107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60A140A1DDB074800DAC107;
+			remoteInfo = ZWActionSheet;
+		};
+		B60A14301DDB074900DAC107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60A14031DDB074800DAC107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60A140A1DDB074800DAC107;
+			remoteInfo = ZWActionSheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B60A140B1DDB074800DAC107 /* ZWActionSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWActionSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A140F1DDB074800DAC107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B60A14111DDB074800DAC107 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B60A14121DDB074800DAC107 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B60A14141DDB074800DAC107 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B60A14151DDB074800DAC107 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B60A14181DDB074800DAC107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B60A141A1DDB074800DAC107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B60A141D1DDB074800DAC107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B60A141F1DDB074800DAC107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60A14241DDB074900DAC107 /* ZWActionSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWActionSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A14281DDB074900DAC107 /* ZWActionSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWActionSheetTests.m; sourceTree = "<group>"; };
+		B60A142A1DDB074900DAC107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60A142F1DDB074900DAC107 /* ZWActionSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWActionSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A14331DDB074900DAC107 /* ZWActionSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWActionSheetUITests.m; sourceTree = "<group>"; };
+		B60A14351DDB074900DAC107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60A14081DDB074800DAC107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A14211DDB074900DAC107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A142C1DDB074900DAC107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60A14021DDB074800DAC107 = {
+			isa = PBXGroup;
+			children = (
+				B60A140D1DDB074800DAC107 /* ZWActionSheet Test */,
+				B60A14271DDB074900DAC107 /* ZWActionSheetTests */,
+				B60A14321DDB074900DAC107 /* ZWActionSheetUITests */,
+				B60A140C1DDB074800DAC107 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60A140C1DDB074800DAC107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60A140B1DDB074800DAC107 /* ZWActionSheet.app */,
+				B60A14241DDB074900DAC107 /* ZWActionSheetTests.xctest */,
+				B60A142F1DDB074900DAC107 /* ZWActionSheetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60A140D1DDB074800DAC107 /* ZWActionSheet Test */ = {
+			isa = PBXGroup;
+			children = (
+				B60A14111DDB074800DAC107 /* AppDelegate.h */,
+				B60A14121DDB074800DAC107 /* AppDelegate.m */,
+				B60A14141DDB074800DAC107 /* ViewController.h */,
+				B60A14151DDB074800DAC107 /* ViewController.m */,
+				B60A14171DDB074800DAC107 /* Main.storyboard */,
+				B60A141A1DDB074800DAC107 /* Assets.xcassets */,
+				B60A141C1DDB074800DAC107 /* LaunchScreen.storyboard */,
+				B60A141F1DDB074800DAC107 /* Info.plist */,
+				B60A140E1DDB074800DAC107 /* Supporting Files */,
+			);
+			name = "ZWActionSheet Test";
+			path = ZWActionSheet;
+			sourceTree = "<group>";
+		};
+		B60A140E1DDB074800DAC107 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60A140F1DDB074800DAC107 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60A14271DDB074900DAC107 /* ZWActionSheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				B60A14281DDB074900DAC107 /* ZWActionSheetTests.m */,
+				B60A142A1DDB074900DAC107 /* Info.plist */,
+			);
+			path = ZWActionSheetTests;
+			sourceTree = "<group>";
+		};
+		B60A14321DDB074900DAC107 /* ZWActionSheetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B60A14331DDB074900DAC107 /* ZWActionSheetUITests.m */,
+				B60A14351DDB074900DAC107 /* Info.plist */,
+			);
+			path = ZWActionSheetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60A140A1DDB074800DAC107 /* ZWActionSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60A14381DDB074900DAC107 /* Build configuration list for PBXNativeTarget "ZWActionSheet" */;
+			buildPhases = (
+				B60A14071DDB074800DAC107 /* Sources */,
+				B60A14081DDB074800DAC107 /* Frameworks */,
+				B60A14091DDB074800DAC107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWActionSheet;
+			productName = ZWActionSheet;
+			productReference = B60A140B1DDB074800DAC107 /* ZWActionSheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B60A14231DDB074900DAC107 /* ZWActionSheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60A143B1DDB074900DAC107 /* Build configuration list for PBXNativeTarget "ZWActionSheetTests" */;
+			buildPhases = (
+				B60A14201DDB074900DAC107 /* Sources */,
+				B60A14211DDB074900DAC107 /* Frameworks */,
+				B60A14221DDB074900DAC107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60A14261DDB074900DAC107 /* PBXTargetDependency */,
+			);
+			name = ZWActionSheetTests;
+			productName = ZWActionSheetTests;
+			productReference = B60A14241DDB074900DAC107 /* ZWActionSheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B60A142E1DDB074900DAC107 /* ZWActionSheetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60A143E1DDB074900DAC107 /* Build configuration list for PBXNativeTarget "ZWActionSheetUITests" */;
+			buildPhases = (
+				B60A142B1DDB074900DAC107 /* Sources */,
+				B60A142C1DDB074900DAC107 /* Frameworks */,
+				B60A142D1DDB074900DAC107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60A14311DDB074900DAC107 /* PBXTargetDependency */,
+			);
+			name = ZWActionSheetUITests;
+			productName = ZWActionSheetUITests;
+			productReference = B60A142F1DDB074900DAC107 /* ZWActionSheetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60A14031DDB074800DAC107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = weizhenwei;
+				TargetAttributes = {
+					B60A140A1DDB074800DAC107 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B60A14231DDB074900DAC107 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B60A140A1DDB074800DAC107;
+					};
+					B60A142E1DDB074900DAC107 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B60A140A1DDB074800DAC107;
+					};
+				};
+			};
+			buildConfigurationList = B60A14061DDB074800DAC107 /* Build configuration list for PBXProject "ZWActionSheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B60A14021DDB074800DAC107;
+			productRefGroup = B60A140C1DDB074800DAC107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60A140A1DDB074800DAC107 /* ZWActionSheet */,
+				B60A14231DDB074900DAC107 /* ZWActionSheetTests */,
+				B60A142E1DDB074900DAC107 /* ZWActionSheetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B60A14091DDB074800DAC107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A141E1DDB074800DAC107 /* LaunchScreen.storyboard in Resources */,
+				B60A141B1DDB074800DAC107 /* Assets.xcassets in Resources */,
+				B60A14191DDB074800DAC107 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A14221DDB074900DAC107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A142D1DDB074900DAC107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60A14071DDB074800DAC107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A14161DDB074800DAC107 /* ViewController.m in Sources */,
+				B60A14131DDB074800DAC107 /* AppDelegate.m in Sources */,
+				B60A14101DDB074800DAC107 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A14201DDB074900DAC107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A14291DDB074900DAC107 /* ZWActionSheetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60A142B1DDB074900DAC107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60A14341DDB074900DAC107 /* ZWActionSheetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B60A14261DDB074900DAC107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B60A140A1DDB074800DAC107 /* ZWActionSheet */;
+			targetProxy = B60A14251DDB074900DAC107 /* PBXContainerItemProxy */;
+		};
+		B60A14311DDB074900DAC107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B60A140A1DDB074800DAC107 /* ZWActionSheet */;
+			targetProxy = B60A14301DDB074900DAC107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B60A14171DDB074800DAC107 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60A14181DDB074800DAC107 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B60A141C1DDB074800DAC107 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60A141D1DDB074800DAC107 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60A14361DDB074900DAC107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B60A14371DDB074900DAC107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60A14391DDB074900DAC107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZWActionSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caissa.ZWActionSheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B60A143A1DDB074900DAC107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZWActionSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caissa.ZWActionSheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B60A143C1DDB074900DAC107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZWActionSheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caissa.ZWActionSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWActionSheet.app/ZWActionSheet";
+			};
+			name = Debug;
+		};
+		B60A143D1DDB074900DAC107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZWActionSheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caissa.ZWActionSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWActionSheet.app/ZWActionSheet";
+			};
+			name = Release;
+		};
+		B60A143F1DDB074900DAC107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZWActionSheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caissa.ZWActionSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZWActionSheet;
+			};
+			name = Debug;
+		};
+		B60A14401DDB074900DAC107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZWActionSheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caissa.ZWActionSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZWActionSheet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60A14061DDB074800DAC107 /* Build configuration list for PBXProject "ZWActionSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A14361DDB074900DAC107 /* Debug */,
+				B60A14371DDB074900DAC107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60A14381DDB074900DAC107 /* Build configuration list for PBXNativeTarget "ZWActionSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A14391DDB074900DAC107 /* Debug */,
+				B60A143A1DDB074900DAC107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B60A143B1DDB074900DAC107 /* Build configuration list for PBXNativeTarget "ZWActionSheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A143C1DDB074900DAC107 /* Debug */,
+				B60A143D1DDB074900DAC107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B60A143E1DDB074900DAC107 /* Build configuration list for PBXNativeTarget "ZWActionSheetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60A143F1DDB074900DAC107 /* Debug */,
+				B60A14401DDB074900DAC107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60A14031DDB074800DAC107 /* Project object */;
+}
